@@ -25,7 +25,7 @@ void CTest3::executerTest() {
     
     // Affichage
     cout << "Message a envoyer : 02 07" << endl;
-    cout << "Trame générée (avec CRC) : ";
+    cout << "Trame generee (avec CRC) : ";
     for(int i = 0; i < tailleMsg + 2; i++) {
         // Affiche chaque octet en hexadécimal
         cout << hex << uppercase << setw(2) << setfill('0') << (int)trameFinale[i] << " ";

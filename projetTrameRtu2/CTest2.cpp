@@ -19,8 +19,8 @@ void CTest::executerTest() {
     // 0x02, 0x07
     // Attendu: 0x02 0x07 0x41 0x12 -> Succès
 
-    unsigned char message[] = {0x02, 0x07};
-    int taille = 2;
+    unsigned char message[] = {0x09, 0x03, 0x00, 0x22, 0x00, 0x02};
+    int taille = 6;
     
     cout << "Debut du test CTrameRtu" << endl;
     cout << "Code a emettre : ";
